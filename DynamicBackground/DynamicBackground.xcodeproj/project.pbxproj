@@ -12,6 +12,8 @@
 		B483C1AF2583EE920050A4E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B483C1AD2583EE920050A4E3 /* Main.storyboard */; };
 		B483C1B12583EE920050A4E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B483C1B02583EE920050A4E3 /* Assets.xcassets */; };
 		B483C1B42583EE920050A4E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B483C1B22583EE920050A4E3 /* LaunchScreen.storyboard */; };
+		B483C1C725843B1C0050A4E3 /* DynamicGradientBG.swift in Sources */ = {isa = PBXBuildFile; fileRef = B483C1C625843B1C0050A4E3 /* DynamicGradientBG.swift */; };
+		B483C1CA2584469D0050A4E3 /* DBGTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B483C1C92584469D0050A4E3 /* DBGTestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B483C1B02583EE920050A4E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B483C1B32583EE920050A4E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B483C1B52583EE920050A4E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B483C1C625843B1C0050A4E3 /* DynamicGradientBG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicGradientBG.swift; sourceTree = "<group>"; };
+		B483C1C92584469D0050A4E3 /* DBGTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBGTestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,7 @@
 		B483C1C32583FB550050A4E3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B483C1C625843B1C0050A4E3 /* DynamicGradientBG.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -100,6 +105,7 @@
 		B483C1C42583FB5E0050A4E3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B483C1C92584469D0050A4E3 /* DBGTestViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -176,6 +182,8 @@
 			files = (
 				B483C1A82583EE920050A4E3 /* AppDelegate.swift in Sources */,
 				B483C1AA2583EE920050A4E3 /* SceneDelegate.swift in Sources */,
+				B483C1CA2584469D0050A4E3 /* DBGTestViewController.swift in Sources */,
+				B483C1C725843B1C0050A4E3 /* DynamicGradientBG.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
